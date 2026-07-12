@@ -321,6 +321,7 @@ section.show {
     border-radius: 25px;
     background: #33333340;
     padding: 2%;
+    box-shadow: 2px 5px 8px #333;
 }
 #signtures {
     min-height: 100vh;
@@ -351,8 +352,10 @@ section.show {
     flex-direction: column;
     list-style: none;
     padding: 2%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     background-color: #33333378;
+    box-shadow: 0 10px 20px #333;
+
 }
 #signtures h3{
     font-size: 50px;
@@ -388,6 +391,7 @@ section.show {
     display: flex;
     align-items: center;
     flex-direction: column;
+    
 }
 #menu ul{
     border: #9c6000 , solid, 2px;
@@ -396,8 +400,10 @@ section.show {
     list-style: none;
     width: 80%;
     padding: 2%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     background-color: #33333378;
+    box-shadow: 0 10px 20px #333;   
+
 }
 #menu h3{    
     font-size: 50px;
@@ -455,6 +461,44 @@ section.show {
     margin-bottom: 2%;
     width: 60%;
     border-radius: 25px;
+        box-shadow: 0 10px 20px #333;
+
+}
+#location{
+    padding: 2%;
+    width: 100%;
+}
+#location h2{
+    color: #5C3A21;
+    font-size: 70px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 10px;
+    padding: 0.5%;
+    border-radius: 25px;
+    text-align: center;
+}
+#location h3{
+    font-size: 30px;
+    color: rgb(246, 208, 161);
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+#location p {
+    color: antiquewhite;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 2%;
+    text-align: center;
+}
+#location iframe{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px #333;
+    margin-bottom: 15px;
 }
 #working-hours{
     padding: 2%;
@@ -487,15 +531,17 @@ section.show {
     text-align: center;
 }
 #hours{
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
 }
 #working-hours ul{
-  border: #9c6000 , solid, 2px;
-  list-style: none; 
-  padding: 1%;
-  border-radius: 25px;   
+    border: #9c6000 , solid, 2px;
+    list-style: none; 
+    padding: 1%;
+    border-radius: 25px;  
+    box-shadow: 0 5px 10px #333;
+ 
 }
 #footer-background{
     background: #33333380;
@@ -513,9 +559,9 @@ gap: 15px;
     text-align: center;
 }
 #contact-methods{
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #contact-methods div{
     display: flex;
@@ -640,6 +686,15 @@ footer p{
     }
     #gallery img{
         width: 70%;
+    }
+    #location h2{
+        font-size: 50px;
+    }
+    #location h3{
+        font-size: 20px;
+    }
+    #location p{
+        font-size: 20px;
     }
     #working-hours h2{
         font-size: 50px;
@@ -778,6 +833,19 @@ footer p{
     }
     #working-hours ul li{
         font-size: 15px
+    }
+    #location h2{
+        font-size: 35px;
+    }
+    #location h3{
+        font-size: 15px;
+    }
+    #location p{
+        font-size: 15px;
+    }
+    #location iframe{
+        width: 90%;
+        height: 300px;
     }
     #contact-methods{
         display: inline-block;
