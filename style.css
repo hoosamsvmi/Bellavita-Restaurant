@@ -319,6 +319,8 @@ section.show {
 }
 .border{
     margin: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
     border: #9c6000 1px solid;
     border-radius: 25px;
     background: #33333340;
@@ -802,6 +804,8 @@ footer p{
     }
     .border{
         padding: 4%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     #menu h2{
         font-size: 30px;
