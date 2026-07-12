@@ -5,7 +5,6 @@
 }
 ::-webkit-scrollbar {
     display: none;
-    scro
 }
 html {
     scroll-behavior: smooth;
