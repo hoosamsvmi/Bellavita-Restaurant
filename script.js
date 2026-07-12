@@ -20,6 +20,11 @@ const menu = document.getElementById("menu");
 herobutton.addEventListener("click" , function (){
     menu.scrollIntoView();
 });
+const contactButton = document.getElementById("contactbtn");
+const contact = document.getElementById("contact");
+contactButton.addEventListener("click" , function (){
+    contact.scrollIntoView();
+});
 
 const sections = document.querySelectorAll("section");
 window.addEventListener("scroll" , function(){
