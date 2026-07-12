@@ -548,11 +548,11 @@ align-items: center;
     border-radius: 5px;
     transform: translateX(5px) translateY(-5px);
 }
-footer{
+footer p{
     text-align: center;
-    border-top: #33333370 solid 1px;
-    padding-top: 2px;
-    font-size: 10px
+    font-size: 10px;
+    padding-bottom: 5px;
+    margin-top: 5px;
 }
 @media (min-width: 768px) and (max-width: 1023px) {  /*ipad*/
     #nav {
@@ -661,6 +661,9 @@ footer{
     }
     #contact img{
         width: 25px;
+    }
+    footer p{
+        font-size: 8px;
     }
 }
 @media (max-width: 767px) {   /*phone*/
@@ -790,5 +793,8 @@ footer{
     }
     #contact img{
         width: 25px;
+    }
+    footer p{
+        font-size: 6px;
     }
 }
