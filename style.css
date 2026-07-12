@@ -38,7 +38,9 @@ section.show {
     backdrop-filter: blur(12px);
     border-radius: 25px;
     position: fixed;
-    padding: 20px;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
     left: 16%;
     right: 16%;
     animation: navdrop 0.8s ease forwards;
@@ -60,16 +62,16 @@ section.show {
     align-items: center;
 }
 #nav img{
-    width: 70px;
+    width: 50px;
     margin-right: 5%;
 }
 #nav button{
     display: inline-block;
-    padding: 5px 15px;
+    padding: 5px 12px;
     color: antiquewhite;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 25px;
+    font-size: 20px;
     border: 3px  solid;
     border-radius: 25px;
     margin-right: 2%;
@@ -111,7 +113,7 @@ section.show {
 }
 #hero h2{
     color: #ffc579;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bold;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -135,7 +137,7 @@ section.show {
     }
 }
 #hero h3{
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 10px;
     margin-left: 10px;
     color: #ffd080;
@@ -170,8 +172,8 @@ section.show {
     }
 }
 #view-menu-btn{
-    width: 25%;
-    height: 10%;
+    width: 18%;
+    height: 8%;
     margin-top: 10px;
     margin-left: 20px;
     position: relative;
@@ -217,10 +219,10 @@ section.show {
 }
 #about h2{
     color: #ffd080;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bolder;
     position: relative;
-    bottom: 15px;
+    bottom: 8px;
 }
 #about p{
     font-size: 20px;
@@ -233,7 +235,7 @@ section.show {
     width: 70%;
 }
 #about ul h3{
-    font-size: 50px;
+    font-size: 35px;
     margin-bottom: 15px;
 }
 #about ul li{
@@ -246,7 +248,7 @@ section.show {
     border: 2px solid #ffae2b;
     border-radius: 25px;
     padding: 1%;
-    font-size: 25px;
+    font-size: 20px;
     transition: 0.3s;
 }
 #about ul li:hover{
@@ -281,7 +283,7 @@ section.show {
     align-items: center;    
     width: fit-content;
     color: #ffd080;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bolder;
     margin-bottom: 20px;
     
@@ -299,7 +301,7 @@ section.show {
 }
 #features ul h3{
     color: bisque;
-    font-size: 35px;
+    font-size: 30px;
     margin-left: 1%;
 }
 #features ul li{
@@ -309,7 +311,7 @@ section.show {
     margin-right: 3%;
     margin-bottom: 2%;
     border-radius: 25px;
-    font-size: 18px;
+    font-size: 15px;
     margin-left: 1%;
 }
 #gradient{
@@ -335,7 +337,7 @@ section.show {
 #signtures h2{
     text-align: center;
     color: #5C3A21;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bolder;
     position: relative;
     bottom: 15px;
@@ -358,12 +360,12 @@ section.show {
 
 }
 #signtures h3{
-    font-size: 50px;
+    font-size: 30px;
     color: bisque;
     margin-bottom: 2%;
 }
 #signtures li{
-    font-size: 30px;
+    font-size: 20px;
     color: bisque;
     margin-bottom: 2%;
 }
@@ -379,7 +381,7 @@ section.show {
 }
 #menu h2{
     color: #5C3A21;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bolder;
     position: relative;
     bottom: 15px;
@@ -398,7 +400,7 @@ section.show {
     color: #fff;
     border-radius: 25px;
     list-style: none;
-    width: 80%;
+    width: 65%;
     padding: 2%;
     margin-bottom: 30px;
     background-color: #33333378;
@@ -406,7 +408,7 @@ section.show {
 
 }
 #menu h3{    
-    font-size: 50px;
+    font-size: 30px;
     color: rgb(246, 208, 161);
     margin-bottom: 2%;
     display: flex;
@@ -417,7 +419,7 @@ section.show {
     display: flex;
 }
 #menu h4{
-    font-size: 30px;
+    font-size: 25px;
     color: antiquewhite;
 }
 #menu ul li p{
@@ -437,7 +439,7 @@ section.show {
 }
 #gallery h2{
     color: #5C3A21;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bolder;
     position: relative;
     bottom: 10px;
@@ -447,7 +449,7 @@ section.show {
 }
 #gallery p{
     color: antiquewhite;
-    font-size: 30px;
+    font-size: 22px;
     margin-bottom: 2%;
 }
 .rotate-right{
@@ -457,11 +459,11 @@ section.show {
     transform: rotateZ(-10deg);
 }
 #gallery img{
-    margin-top: 5%;
+    margin-top: 3%;
     margin-bottom: 2%;
-    width: 60%;
+    width: 40%;
     border-radius: 25px;
-        box-shadow: 0 10px 20px #333;
+    box-shadow: 0 10px 20px #333;
 
 }
 #location{
@@ -470,7 +472,7 @@ section.show {
 }
 #location h2{
     color: #5C3A21;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bolder;
     position: relative;
     bottom: 10px;
@@ -479,7 +481,7 @@ section.show {
     text-align: center;
 }
 #location h3{
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(246, 208, 161);
     margin-bottom: 2%;
     display: flex;
@@ -487,7 +489,7 @@ section.show {
 }
 #location p {
     color: antiquewhite;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
     margin-bottom: 2%;
     text-align: center;
@@ -495,7 +497,7 @@ section.show {
 #location iframe{
     display: block;
     margin: 0 auto;
-    width: 70%;
+    width: 60%;
     border-radius: 25px;
     box-shadow: 0 10px 20px #333;
     margin-bottom: 15px;
@@ -507,7 +509,7 @@ section.show {
 }
 #working-hours h2{
     color: #5C3A21;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bolder;
     position: relative;
     bottom: 10px;
@@ -550,7 +552,7 @@ section.show {
 }
 #contact h2{
     color: #5C3A21;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bolder;
     position: relative;
     bottom: 10px;
@@ -611,7 +613,7 @@ footer p{
         margin: 5px;
     }
     #nav img{
-        width: 55px;
+        width: 50px;
         margin-right: 0%;
         margin-left: 0%;
         margin-bottom: 2%;
@@ -633,7 +635,7 @@ footer p{
         height: 8%;
     }
     #about h2{
-        font-size: 50px;
+        font-size: 40px;
     }
     #about p{
         font-size:15px;
@@ -667,13 +669,13 @@ footer p{
         font-size: 20px;
     }
     #menu h2{
-        font-size: 50px;
+        font-size: 40px;
     }
     #menu h3{
-        font-size: 35px;
+        font-size: 30px;
     }
     #menu h4{
-        font-size: 25px;
+        font-size: 22px;
     }
     #menu ul li p{
         font-size: 20px;
@@ -685,10 +687,10 @@ footer p{
     font-size: 25px;
     }
     #gallery img{
-        width: 70%;
+        width: 50%;
     }
     #location h2{
-        font-size: 50px;
+        font-size: 40px;
     }
     #location h3{
         font-size: 20px;
@@ -727,14 +729,17 @@ footer p{
         left: 1%;
         right: 1%;
         flex-direction: column;
+        padding-bottom: 5px;
+        padding-top: 5px;
     }
     #nav button{
-        font-size: 15px;
+        font-size: 12px;
         padding: 2px 5px;
-        margin: 3px;
+        margin-left: 3px;
+        margin-right: 3px;
     }
     #nav img{
-        width: 50px;
+        width: 40px;
         margin-right: 0%;
         margin-left: 0%;
         margin-bottom: 2%;
@@ -759,23 +764,23 @@ footer p{
         background-position-x: -15px;
     }
     #about h2{
-        font-size: 35px;
+        font-size: 30px;
     }
     #about p{
         font-size:12px;
         width: 80%;
     }
     #about ul h3{
-        font-size: 25px;
+        font-size: 20px;
     }
     #about ul li{
         font-size: 18px;
     }
      #features h2{
-        font-size: 35px;
+        font-size: 30px;
     }
     #features ul h3{
-    font-size: 25px;
+    font-size: 20px;
     }
     #features ul li{
         font-size: 12px;
@@ -784,13 +789,13 @@ footer p{
         padding: 4%;
     }
      #signtures h2{
-        font-size: 35px;
+        font-size: 30px;
     }
     #signtures ul{
-        width: 90%;
+        width: 75%;
     }
     #signtures ul h3{
-    font-size: 25px;
+    font-size: 20px;
     }
     #signtures ul li{
         font-size: 15px;
@@ -799,10 +804,10 @@ footer p{
         padding: 4%;
     }
     #menu h2{
-        font-size: 35px;
+        font-size: 30px;
     }
     #menu h3{
-        font-size: 25px;
+        font-size: 20px;
     }
     #menu h4{
         font-size: 18px;
@@ -811,13 +816,13 @@ footer p{
         font-size: 15px;
     }
     #gallery h2{    
-        font-size: 35px;
+        font-size: 30px;
     }
     #gallery p{    
         font-size: 15px;
     }
     #gallery img{
-        width: 80%;
+        width: 60%;
     }
     #hours{
         grid-template-columns: repeat(1, 1fr);
@@ -826,16 +831,16 @@ footer p{
         width: 100%;
     }
     #working-hours h2{
-        font-size: 35px;
+        font-size: 30px;
     }
     #working-hours h3{
-        font-size: 25px;
+        font-size: 20px;
     }
     #working-hours ul li{
         font-size: 15px
     }
     #location h2{
-        font-size: 35px;
+        font-size: 30px;
     }
     #location h3{
         font-size: 15px;
@@ -851,7 +856,7 @@ footer p{
         display: inline-block;
     }
     #contact h2{
-        font-size: 35px;
+        font-size: 30px;
     }
     #contact h3{
         font-size: 15px;
