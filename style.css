@@ -39,8 +39,8 @@ section.show {
     border-radius: 25px;
     position: fixed;
     padding: 20px;
-    left: 17%;
-    right: 17%;
+    left: 16%;
+    right: 16%;
     animation: navdrop 0.8s ease forwards;
     z-index: 100;
 }
@@ -602,8 +602,8 @@ footer p{
 }
 @media (min-width: 768px) and (max-width: 1023px) {  /*ipad*/
     #nav {
-        left: 19%;
-        right: 19%;
+        left: 18%;
+        right: 18%;
     }
     #nav button{
         font-size: 20px;
